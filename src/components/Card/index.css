@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  .card {
+    width: 240px;
+    height: 250px;
+    border: 1px solid azure;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px;
+    color: azure;
+    transition: all 0.5s;
+    box-shadow: -3px 7px 35px -1px rgba(41, 41, 41, 0.62);
+  }
+  .card:hover {
+    transform: scale(1.1, 1.1)
+  }
+  
+  .name {
+    margin-bottom: 10px;
+  }
+  
+  .country {
+    margin-bottom: 10px;
+  }
+  
+  .language {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pages {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+  }
+  
